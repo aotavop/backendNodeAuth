@@ -29,7 +29,6 @@ router.get('/:id', function (req, res) {
         httpStatus.StatusCodes.INTERNAL_SERVER_ERROR
       );
     });
-  response.success(req, res, items, httpStatus.StatusCodes.OK);
 });
 
 router.get('/:id', function (req, res) {
